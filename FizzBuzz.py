@@ -11,7 +11,7 @@ print("Ist die Zahl durch 3 und 5 teilbar, dann gib das Wort `FizzBuzz` ein!")
 print("Kommt keines der Ergebnisse in Frage, dann gib NONE ein")
 
 while True:
-    if attempts == 5:
+    if attempts and versuch == 5:
         break
     attempts += 1
     try:
@@ -41,7 +41,6 @@ while True:
             print(f"Du hast nur {attempts} Versuche gebraucht")
             break
         else:
-            print("Falsch!")
+            print("Falsch!, versuch es erneut!")
     except ValueError as e:
-        print("Versuch es erneut!")
         exit(1)
