@@ -11,7 +11,7 @@ print("Ist die Zahl durch 3 und 5 teilbar, dann gib das Wort `FizzBuzz` ein!")
 print("Kommt keines der Ergebnisse in Frage, dann gib NONE ein")
 
 while True:
-    if attempts and versuch == 5:
+    if attempts == 5:
         break
     attempts += 1
     try:
