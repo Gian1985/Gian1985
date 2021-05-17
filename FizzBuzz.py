@@ -8,7 +8,7 @@ print(zahl)
 print("Ist die Zahl durch 3 teilbar, dann gib das Wort `Fizz´ ein!")
 print("Ist die Zahl durch 5 teilbar, dann gib das Wort `Buzz´ ein!")
 print("Ist die Zahl durch 3 und 5 teilbar, dann gib das Wort `FizzBuzz´ ein!")
-print("Kommt keines der Ergebnisse in Frage, dann gib `NONE´ ein")
+print("Kommt keines der Ergebnisse in Frage, dann gib das Wort `NONE´ ein")
 
 while True:
     if attempts == 5:
